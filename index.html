@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Revision Cheat Sheet">
+
+    <title>HTML Full Revision</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        section {
+            margin-bottom: 40px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        h2 {
+            color: #333;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML Full Revision Guide</h1>
+        <p>This file covers most HTML concepts.</p>
+    </header>
+
+    <!-- TEXT TAGS -->
+    <section>
+        <h2>Text Formatting</h2>
+        <p>This is <b>bold</b>, <i>italic</i>, <u>underline</u></p>
+        <p>This is <strong>strong</strong> and <em>emphasis</em></p>
+        <p>H<sub>2</sub>O and x<sup>2</sup></p>
+        <p><mark>Highlighted text</mark></p>
+        <p><small>Small text</small></p>
+    </section>
+
+    <!-- LINKS & IMAGES -->
+    <section>
+        <h2>Links & Images</h2>
+        <a href="https://www.google.com" target="_blank">Go to Google</a>
+        <br><br>
+        <img src="https://via.placeholder.com/150" alt="Sample Image">
+    </section>
+
+    <!-- LISTS -->
+    <section>
+        <h2>Lists</h2>
+        <h4>Ordered List</h4>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+
+        <h4>Unordered List</h4>
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+        </ul>
+
+        <h4>Description List</h4>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Markup language</dd>
+        </dl>
+    </section>
+
+    <!-- TABLE -->
+    <section>
+        <h2>Table</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>22</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- FORM -->
+    <section>
+        <h2>Forms</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter name">
+
+            <label>Email:</label>
+            <input type="email">
+
+            <label>Password:</label>
+            <input type="password">
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+
+            <label>Skills:</label>
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+
+            <label>Country:</label>
+            <select>
+                <option>India</option>
+                <option>USA</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- SEMANTIC TAGS -->
+    <section>
+        <h2>Semantic Elements</h2>
+        <article>
+            <h3>Article Title</h3>
+            <p>This is an article.</p>
+        </article>
+
+        <aside>
+            <p>This is aside content.</p>
+        </aside>
+    </section>
+
+    <!-- MEDIA -->
+    <section>
+        <h2>Media</h2>
+        <video width="200" controls>
+            <source src="sample.mp4" type="video/mp4">
+        </video>
+
+        <audio controls>
+            <source src="sample.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <!-- IFRAME -->
+    <section>
+        <h2>iFrame</h2>
+        <iframe src="https://example.com" width="300" height="200"></iframe>
+    </section>
+
+    <!-- SCRIPT -->
+    <section>
+        <h2>JavaScript Example</h2>
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <footer>
+        <p>End of HTML Revision</p>
+    </footer>
+
+    <!-- JS -->
+    <script>
+        function showMessage() {
+            alert("Hello from JavaScript!");
+        }
+    </script>
+
+</body>
+</html>
